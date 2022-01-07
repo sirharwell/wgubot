@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+	<category>
+	    <pattern>What job should I do</pattern>
+	    <template>Well that really depends. What part of IT excites you most?
+	    
+	    <reply>
+	        <text>Solving Puzzles</text>
+	        <postback>test</postback>
+        </reply>
+        
+        <reply>
+	        <text>Building Worlds</text>
+	        <postback>arch</postback>
+        </reply>
+        
+        <reply>
+	        <text>Server Maintenence</text>
+	        <postback>serve</postback>
+        </reply>
+        
+        <reply>
+	        <text>Web Design</text>
+	        <postback>web</postback>
+        </reply>
+        
+        <reply>
+	        <text>Networks</text>
+	        <postback>network</postback>
+        </reply>
+        </template>
+        
+    </category>
+    
+    <category>
+	    <pattern>test</pattern>
+	    <template>Then you should look into a career as an Engineer in Test.</template>
+    </category>
+    
+    <category>
+	    <pattern>arch</pattern>
+	    <template>Then you should look into a career as a System Architect.</template>
+    </category>
+    
+    <category>
+	    <pattern>serve</pattern>
+	    <template>Then you should look into a career as a Server Engineer.</template>
+    </category>
+    
+    <category>
+	    <pattern>web</pattern>
+	    <template>Then you should look into a career as a Web Designer.</template>
+    </category>
+    
+    <category>
+	    <pattern>network</pattern>
+	    <template>Then you should look into a career as a Network Engineer.</template>
+    </category>
+    
+</aiml>

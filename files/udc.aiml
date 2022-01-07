@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I don't know how to answer that.</template>
+  </category>
+  <category>
+      <pattern>Hi</pattern>
+      <template>
+          <random>
+          <li> Hello!</li>
+          <li> Hola!</li>
+          <li> Bon Juer!</li>
+          <li> Halo!</li>
+          </random>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>Hola</pattern>
+      <template><srai>hi</srai></template>
+  </category>
+  
+  <category>
+      <pattern>Hello</pattern>
+      <template><srai>hi</srai></template>
+  </category>
+  <category>
+      <pattern>Hey</pattern>
+      <template><srai>hi</srai></template>
+  </category>
+  <category>
+      <pattern>Herro</pattern>
+      <template>That's racist</template>
+  </category>
+  <category>
+      <pattern>Yo</pattern>
+      <template><srai>hi</srai></template>
+  </category>
+  
+  <category>
+    <pattern>Thanks</pattern>
+      <template>
+          <random>
+          <li> You are welcome!</li>
+          <li> You're welcome!</li>
+          <li> No problem!</li>
+          <li> Don't worry about it</li>
+          </random>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>Thank you</pattern>
+      <template><srai>Thanks</srai></template>
+  </category>  
+
+
+<category>
+    <pattern>bye</pattern>
+    <template>See ya later!</template>
+</category>
+
+<category>
+    <pattern>goodbye</pattern>
+    <template>See ya later!</template>
+</category>
+
+<category>
+    <pattern>bye bye</pattern>
+    <template>See ya later!</template>
+</category>
+
+<category>
+    <pattern>good bye</pattern>
+    <template>See ya later!</template>
+</category>
+
+<category>
+    <pattern>ok bye</pattern>
+    <template>See ya later!</template>
+</category>
+  
+</aiml>

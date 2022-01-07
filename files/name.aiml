@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category> 
+	<pattern>
+	    Your master is *
+	</pattern>
+	<template> I will remember my master is <set name ="name"><star/></set></template>
+	</category>
+	
+	<category>
+	    <pattern>Who is your master</pattern>
+	    <template>My master is <get name ="name"/></template>
+    </category>
+    
+    	<category> 
+	<pattern>
+	    Your best friend is *
+	</pattern>
+	<template> <think> <set name ="bestie"><star/></set></think>Okie Dokie</template>
+	</category>
+	
+	<category>
+	    <pattern>Who is your best friend</pattern>
+	    <template>My best friend is <get name ="bestie"/></template>
+    </category>
+    
+    <category>
+        <pattern>what did you just say</pattern>
+        <template> <response index="1"/></template>
+    </category>
+</aiml>
