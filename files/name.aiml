@@ -2,26 +2,26 @@
 <aiml version="2.0">
 	<category> 
 	<pattern>
-	    Your master is *
+	    My name is *
 	</pattern>
-	<template> I will remember my master is <set name ="name"><star/></set></template>
+	<template> I will remember your name, <set name ="name"><star/></set>.</template>
 	</category>
 	
 	<category>
-	    <pattern>Who is your master</pattern>
-	    <template>My master is <get name ="name"/></template>
+	    <pattern>What is my name</pattern>
+	    <template>Your name is <get name ="name"/>.</template>
     </category>
     
     	<category> 
 	<pattern>
-	    Your best friend is *
+	    My best friend is *
 	</pattern>
 	<template> <think> <set name ="bestie"><star/></set></think>Okie Dokie</template>
 	</category>
 	
 	<category>
-	    <pattern>Who is your best friend</pattern>
-	    <template>My best friend is <get name ="bestie"/></template>
+	    <pattern>Who is my best friend</pattern>
+	    <template>Your best friend is <get name ="bestie"/></template>
     </category>
     
     <category>
