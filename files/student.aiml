@@ -58,4 +58,18 @@
 	    <template>Then you should look into a career as a Network Engineer.</template>
     </category>
     
+    <category>
+      <pattern>What should I do</pattern>
+      <template><srai>What job should I do</srai></template>
+    </category>
+    
+    <category>
+      <pattern>What is the best job</pattern>
+      <template><srai>What job should I do</srai></template>
+    </category>
+    
+    <category>
+      <pattern>What job should I get</pattern>
+      <template><srai>What job should I do</srai></template>
+    </category>
 </aiml>
