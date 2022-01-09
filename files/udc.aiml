@@ -2,7 +2,7 @@
 <aiml>
   <category>
     <pattern>*</pattern>
-    <template>I don't know how to answer that.</template>
+    <template>I don't know how to answer that, but I can help you with a job recommendation. Just type "What job should I do?"</template>
   </category>
   <category>
       <pattern>Hi</pattern>
@@ -28,10 +28,6 @@
   <category>
       <pattern>Hey</pattern>
       <template><srai>hi</srai></template>
-  </category>
-  <category>
-      <pattern>Herro</pattern>
-      <template>That's racist</template>
   </category>
   <category>
       <pattern>Yo</pattern>
